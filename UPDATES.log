@@ -1,0 +1,10 @@
+[2025-10-16 23:12:54] v1.1.0
+- Refactored to a clean, standalone structure (fxmanifest.lua, client/server separation, shared config).
+- Added safe teleport logic with ground probing and over-water parachute handling.
+- Added vehicle teleport when player is the driver (configurable).
+- Added cooldown enforcement (configurable).
+- Added optional ACE permission gate with server-side verification.
+- Added optional key mapping (`sfx_ttwp:tpw`) and chat suggestions.
+- Eliminated busy loops; on-demand execution only.
+- Defensive nil checks and timeouts around collision loading.
+- README added with installation, configuration, and commands.
